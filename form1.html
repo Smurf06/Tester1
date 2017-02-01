@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+			<title> Starting with Forms </title>
+	</head>
+
+	<body> 
+				
+		<form>
+		<!-- 1. Create a text box-->  
+			First Name: <input name = "fname"/>
+			
+		<!-- 2. Create a text box with a button-->  
+			<form action ="post">
+			<p>Last Name: <input name = "lname" placeholder="Last Name" /></p>
+			<input type="button" value="Click me" onclick="alert('You clicked Me');" />
+		
+		<!--3. Three checkboxes with two buttons -->
+		<p><b>What are your favourite spreads?</b></p>
+		<p>Ketchup<input type = "checkbox" name = "spread_1" value = "Ketchup" /> </p>
+		<p>Mustard<input type = "checkbox" name = "spread_2" value = "Mustard" /> </p>
+		<p>Mayo<input type = "checkbox" name = "spread_3" value = "Mayo" /> </p>
+		
+		<p> <input type = "button" value = "Select" /> </p>
+		<p> <input type = "reset" value = "Reset Form" /> </p>
+		
+		<!--4. Dropdown window -->
+		
+		Country:
+		
+		<select name = "country">
+							<option value = "selecthere">Select Here	</option>
+							<option value = "ireland">Ireland	</option>
+							<option value = "england">England	</option>
+							<option value = "france">France	</option>
+							<option value = "spain">Spain	</option>
+						</select>
+						
+						<p> <input type = "button" value = "Submit" /> </p>
+					<p> <input type = "reset" value = "Reset Form" /> </p>
+		
+		
+		<!--5. Radio buttons -->
+		
+		
+				<p><b>What are your favourite spreads?</b></p>
+		<p>Ketchup<input type = "radio" name = "spread_1" value = "Ketchup" /> </p>
+		<p>Mustard<input type = "radio" name = "spread_2" value = "Mustard" /> </p>
+		<p>Mayo<input type = "radio" name = "spread_3" value = "Mayo" /> </p>
+		
+		<p> <input type = "button" value = "Select" /> </p>
+		<p> <input type = "reset" value = "Reset Form" /> </p>
+		</form>
+		
+		
+	</body>
+</html>
